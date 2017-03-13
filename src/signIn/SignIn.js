@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { auth, googleAuthProvider } from './firebase';
+import { auth, googleAuthProvider } from '../firebase';
 
 class SignIn extends Component {
   render() {
