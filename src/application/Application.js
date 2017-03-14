@@ -8,6 +8,7 @@ import AddTodo from '../addTodo/AddTodo';
 
 import './Application.css';
 
+
 class Application extends Component {
   constructor(props) {
     super(props);
@@ -18,7 +19,6 @@ class Application extends Component {
     };
 
     this.addTodoItem = this.addTodoItem.bind(this);
-    this.markDone = this.markDone.bind(this);
   }
 
   componentWillMount() {
@@ -32,10 +32,6 @@ class Application extends Component {
     this.setState({
       allTodos: [...this.state.allTodos, todo]
     })
-  }
-
-  markDone(todo) {
-    console.log('todo', todo);
   }
 
   render() {
@@ -63,7 +59,6 @@ class Application extends Component {
       <div>
         <TodoList
           todos={ this.state.allTodos }
-          markDone={ this.markDone }
         />
       </div>
     </div>;
