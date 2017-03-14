@@ -5,9 +5,10 @@ class TodoItem extends Component {
     super(props);
   }
 
+
   render() {
     const { item } = this.props;
-    console.log('item', item);
+    
     return <div>
       { item }
     </div>;

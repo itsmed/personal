@@ -9,11 +9,11 @@ class TodoList extends Component {
 
   render() {
     const { todos } = this.props;
-    
+
     return <div>
       <ul>
       {
-        todos.map(todo => <li key={todo}> <TodoItem item={todo} /> </li> )
+        todos.map(todo => <li key={ todo } ref={ todo }> <TodoItem item={ todo } /> </li> )
       }
       </ul>
     </div>;
