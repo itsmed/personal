@@ -8,7 +8,7 @@ class TodoItem extends Component {
 
   render() {
     const { item } = this.props;
-    
+
     return <div>
       { item }
     </div>;
