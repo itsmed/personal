@@ -26,7 +26,6 @@ class AddTodo extends Component {
   }
 
   render() {
-    console.log('add todo props', this.props);
     return <form onSubmit={ this.handleSubmit }>
     todoItem: { this.state.todoItem }
       <input
