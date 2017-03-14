@@ -12,14 +12,7 @@ class TodoList extends Component {
 
   handleTodoClick(ref) {
     const ele = this.refs[ref];
-    const blue = {
-      color: 'blue',
-    };
-
-    const black = {
-      color: 'black',
-    };
-    console.log('clicked', ele.style);
+    
     ele.style.textDecoration = ele.style.textDecoration === '' ? 'line-through' : 'none';
   }
 
