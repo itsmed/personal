@@ -26,19 +26,24 @@ class AddTodo extends Component {
   }
 
   render() {
-    return <form onSubmit={ this.handleSubmit }>
-    todoItem: { this.state.todoItem }
-      <input
-        type="text"
-        ref="todoInput"
-        placeholder="Add Todo"
-        onKeyUp={ this.setTodo }
-      />
-      <input
-        type="submit"
-        value="Submit"
-      />
-    </form>;
+    return <div>
+      <div>
+        <h5>Todo Preview:</h5>
+        <p>{ this.state.todoItem }</p>
+      </div>
+      <form onSubmit={ this.handleSubmit }>
+        <input
+          type="text"
+          ref="todoInput"
+          placeholder="Add Todo"
+          onKeyUp={ this.setTodo }
+        />
+        <input
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </div>
   }
 }
 
