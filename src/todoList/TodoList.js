@@ -9,7 +9,7 @@ class TodoList extends Component {
 
   render() {
     const { todos } = this.props;
-    console.log('todos', todos, Array.isArray(todos), todos.map)
+    
     return <div>
       <ul>
       {
