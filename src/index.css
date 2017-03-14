@@ -17,7 +17,7 @@ body, input, button, textarea {
 }
 
 a.button {
-  text-decoration: none;
+  text-decoration: strike-through;
 }
 
 button, input[type="submit"], .button {
