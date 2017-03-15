@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import NavItem from './NavItem';
+
 class NavContainer extends Component {
   constructor(props) {
     super(props);
@@ -7,7 +9,7 @@ class NavContainer extends Component {
 
   render() {
     return <nav>
-      
+    
     </nav>;
   }
 }

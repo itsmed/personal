@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { auth, database }  from '../firebase';
 
-import CurrentUser from '../currentUser/CurrentUser';
+import CurrentUser from '../user/CurrentUser';
 import SignIn from '../signIn/SignIn';
 import TodoList from '../todoList/TodoList';
 import AddTodo from '../addTodo/AddTodo';
