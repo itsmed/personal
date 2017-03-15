@@ -5,6 +5,7 @@ import CurrentUser from '../user/CurrentUser';
 import SignIn from '../signIn/SignIn';
 import TodoList from '../todoList/TodoList';
 import AddTodo from '../addTodo/AddTodo';
+import NavContainer from '../navigation/NavContainer';
 
 import './Application.css';
 
@@ -39,6 +40,7 @@ class Application extends Component {
 
     return <div className="Application">
       <header className="Application--header">
+        <NavContainer />
         <h1>Our Todo List</h1>
       </header>
       <div>

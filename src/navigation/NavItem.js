@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavItem = (props) => {
-  return <div>
+  return <div onClick={ props.action }>
     { props.text }
   </div>;
 };
