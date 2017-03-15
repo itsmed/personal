@@ -21,3 +21,4 @@ yarn-error.log*
 
 # todo list
 todos_the_app.txt
+fake_db.js
